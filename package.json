@@ -1,0 +1,22 @@
+{
+  "name": "LearnJest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/y-endo/LearnJest.git",
+  "author": "YukiEndo",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --silent=false --verbose false --coverage"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.30",
+    "babel-jest": "^24.9.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^24.9.0",
+    "regenerator-runtime": "^0.13.3",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
+}
