@@ -10,13 +10,25 @@
   },
   "devDependencies": {
     "@vue/test-utils": "^1.0.0-beta.30",
+    "babel-core": "^6.26.3",
     "babel-jest": "^24.9.0",
     "babel-preset-env": "^1.7.0",
     "jest": "^24.9.0",
     "regenerator-runtime": "^0.13.3",
+    "vue-jest": "^3.0.5",
     "vue-template-compiler": "^2.6.10"
   },
   "dependencies": {
     "vue": "^2.6.10"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "vue"
+    ],
+    "transform": {
+      ".*\\.(vue)$": "vue-jest",
+      "^.+\\.js$": "<rootDir>/node_modules/babel-jest"
+    }
   }
 }

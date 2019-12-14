@@ -1,7 +1,7 @@
 <template>
   <div>
     <p>{{ text }}</p>
-    <button @click="handleClick"></button>
+    <button @click="handleClick">ボタン</button>
   </div>
 </template>
 
@@ -11,7 +11,6 @@ export default {
   props: {
     text: {
       type: String,
-      required: true,
       default: () => ''
     }
   },
