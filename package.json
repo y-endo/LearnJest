@@ -2,7 +2,7 @@
   "name": "LearnJest",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/y-endo/LearnJest.git",
+  "repository": "https://github.com/y-endo/learn-jest.git",
   "author": "YukiEndo",
   "license": "MIT",
   "scripts": {
